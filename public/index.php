@@ -10,9 +10,9 @@
 <body>
 <?php
 
-use App\Hello;
+require '../src/Hello.php';
 
-$hello = new Hello();
+$hello = new App\Hello();
 
 echo $hello->talk();
 
