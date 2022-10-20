@@ -11,11 +11,23 @@
 <?php
 
 require '../src/Hello.php';
+require '../vendor/autoload.php';
 
 $hello = new App\Hello();
 
 echo $hello->talk();
 
+echo "<br>";
+
+use CowSay\Cow;
+
+echo "<div>";
+$bessie = new Cow('Hello, wilder!');
+
+// store the output in a variable
+$output = $bessie->say();
+echo $output;
+echo "</div>";
 ?>
 </body>
 </html>
