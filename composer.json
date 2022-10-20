@@ -1,0 +1,15 @@
+{
+    "name": "maske/composer-quest",
+    "autoload": {
+        "psr-4": {
+            "Maske\\ComposerQuest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexis Boucherie",
+            "email": "alexis.boucherie@gmail.com"
+        }
+    ],
+    "require": {}
+}
